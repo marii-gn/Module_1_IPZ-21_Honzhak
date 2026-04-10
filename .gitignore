@@ -1,0 +1,12 @@
+# Віртуальне середовище
+venv/
+env/
+
+# Кеш Python та pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Звіти pytest-html
+report.html
+assets/
