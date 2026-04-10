@@ -10,3 +10,6 @@ def read_population_data(file_path):
                     'population': int(population.strip())
                 })
     return data
+
+def sort_by_area(data):
+    return sorted(data, key=lambda x: x['area'], reverse=True)
